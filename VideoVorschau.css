@@ -1,0 +1,84 @@
+  .Video-Grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+  }
+  .VideoBild{
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .Video-Bild{
+    position: relative;
+  }
+
+  .TimeDisplay{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 4px;
+    padding-left: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 4px;
+    font-family: Roboto, Arial;
+  }
+  .ProfilBild{
+    width: 70%;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .Video-Titel{
+    font-weight: 600;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    font-size: 14px;
+  }
+
+  .Video-Besitzer{
+    font-size: 13px;
+    color: #6c757d;
+    margin-bottom: 3px;
+  }
+
+  .Video-Aufrufe{
+    font-size: 13px;
+    color: #6c757d;
+    margin-top: 3px;
+    cursor: text;
+  }
+
+
+  .Design-Grid{
+    display: grid;
+    column-gap: 18px;
+    row-gap: 32px;
+    padding-top: 84px;
+    background-color: #fbfbfb;
+  }
+
+
+  @media (max-width: 750px)
+  {
+    .Design-Grid{
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (min-width:751px) and (max-width:999px) {
+  .Design-Grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  }
+
+  @media (min-width: 1000px)
+  {
+    .Design-Grid{
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+

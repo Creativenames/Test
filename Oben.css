@@ -1,0 +1,207 @@
+
+.Header {
+    height: 55px;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+    z-index: 2;
+  }
+.Mitte{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.Rechts{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.Links{ 
+    display: flex;
+    align-items: center;
+}
+
+.youtube-logo{
+    height: 20px;
+
+}
+
+.hamburger-menu{
+    height: 24px;
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+
+
+.Lupe{
+    width: 66px;
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(192, 192, 192);
+    margin-right: 10px;
+    margin-left: -1px;
+    background-color: rgb(245, 245, 245);
+
+}
+
+.Lupe, 
+.Mikro,
+.Upload,
+.Apps,
+.NotificationsDiv{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Lupe:hover .HeaderText,
+.Apps:hover .HeaderText,
+.Mikro:hover .HeaderText,
+.NotificationsDiv:hover .HeaderText,
+.Upload:hover .HeaderText{
+    opacity: 0.8;
+}
+.Lupe:hover,
+.Apps:hover,
+.Mikro:hover,
+.NotificationsDiv:hover,
+.Upload:hover{
+    cursor: pointer;
+}
+
+
+.HeaderText{
+    position: absolute;
+    bottom: -44px;
+    opacity: 0;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-right: 6px;
+    padding-left: 6px;
+    border-radius: 2px;
+    transition: all 150ms;
+    pointer-events: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+}
+
+
+.Suchen{
+    position: absolute;
+    bottom: -32px;
+    right: 58px;
+    text-align: center;
+    background-color: #6c757d;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-radius: 2px;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+.Lupe:hover{
+    background-color: #efefef;
+}
+
+
+
+.Lupen{
+    height: 25px;
+    margin-top: 4px;
+}
+
+.Mikro{
+    height: 40px;
+    width: 40px;
+    border-radius: 24px;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+
+.Mikrofon{
+    height: 24px;
+}
+
+.Searchbar{
+    flex: 1;
+    height: 36.4px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-width: 1px;
+    padding-left: 10px;
+    border-radius: 2px;
+    font-size: 16px;
+    width: 0;
+}
+
+
+
+
+.Searchbar::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-color: #6c757d;
+}
+
+
+
+.Create,
+.YoutubeApps,
+.Notifications{
+    height: 24px;
+}
+
+
+.NotificationsCount{
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    background-color: rgb(200, 0, 0);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 11px;
+}
+
+
+.User-picture{
+    height: 32px;
+    margin-right: 24px;
+}
+
+
